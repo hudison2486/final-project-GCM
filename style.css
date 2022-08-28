@@ -2,8 +2,13 @@
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
 }
+
+
+
 
 .main-login {
     width: 100vw;
@@ -97,10 +102,6 @@ a {
     text-decoration: none;
     color: #4E5DB5;
 
-}
-
-.f-passw {
-    margin: 0;
 }
 
 .btn-login{

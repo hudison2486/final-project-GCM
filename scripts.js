@@ -14,6 +14,10 @@ window.onload = () => {
     var error = document.getElementById('error')
     var button = document.getElementById('button')
 
+    var select_day = document.getElementById('select-day')
+
+
+
     button.addEventListener('click', () => {
         console.log(username.value)
         const hasUser = users.find(user => user.username === username.value && user.password === password.value)

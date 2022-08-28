@@ -93,6 +93,16 @@ body {
     color: 'red';
 }
 
+a {
+    text-decoration: none;
+    color: #4E5DB5;
+
+}
+
+.f-passw {
+    margin: 0;
+}
+
 .btn-login{
     width: 100%;
     padding: 16px 0px;

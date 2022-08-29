@@ -24,8 +24,10 @@ window.onload = () => {
         const hasUser = users.find(user => user.username === username.value && user.password === password.value)
         if (hasUser) {
             console.log('loguei');
+            alert("Logado com sucesso!");
             window.location.href  = "./pages/main.html"
         } else {
+            alert("Usuário ou senha incorreta.");
             error.innerHTML = 'Usuario ou senha incorreta.'
         }
     })

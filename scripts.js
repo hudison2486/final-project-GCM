@@ -16,6 +16,7 @@ window.onload = () => {
 
     var select_day = document.getElementById('select-day')
 
+    
 
 
     button.addEventListener('click', () => {
